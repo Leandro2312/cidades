@@ -5,37 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cidades - Tokyo</title>
-    <link rel="shortcut icon" href="tokyoicon.png" type="image/x-icon">
+    <title>Cidades - Londres</title>
+    <link rel="shortcut icon" href="icone.png" type="image/x-icon">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         #cabecalho {
             height: 200px;
-            background-color: #C4C4C4;
+            background-color: #C4C4C4
         }
 
         #menu-de-navegacao {
             height: 70px;
             background-color: #B4B4B4;
             text-align: center;
+
+
         }
 
         #conteudo-principal {
-            background-color: #DBDBDB;
+         
+            background-color: #DBDBDB
         }
-        
+
         #rodape {
             height: 150px;
             background-color: #C4C4C4
         }
 
 
+
+
         #titulo {
             font-size: 64px;
-            color: #564e68;
-            font-weight: 400;
+            color: #602BD1;
+            font-Weight: 400;
             text-align: center;
             font-family: italic;
             text-transform: uppercase;
@@ -51,10 +56,10 @@
         .subtitulo {
             font-size: 40px;
             color: aqua;
-            font-family: 'Poppins';
-            font-weight: 600;
+            font-family: 'POPPINS';
+            font-Weight: 600;
         }
-
+        
         .texto-comum {
             font-size: 14px;
             font-weight: 300;
@@ -62,14 +67,18 @@
             text-align: justify;
         }
 
-        .texto-colunas {
-              column-count: 2;
+        .texto-colunas{
+            column-count: 2;
+        }
+        .creditos{
+            font-family: 'italic';
+            font-size: 12px;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
-
     <header id="cabecalho">
         <h1 id="titulo">CIDADES</h1>
     </header>
@@ -77,25 +86,30 @@
         <a href="index.html" class="item-menu">LONDRES</a> -
         <a href="paris.html" class="item-menu">PARIS</a> -
         <a href="tokyo.html" class="item-menu">TOKYO</a>
-    </nav>
 
+
+    </nav>
     <main id="conteudo-principal">
-        <h2 class="subtitulo">TOKYO</h2>
+        <h2 class="subtitulo">LONDRES</h2>
         <video autoplay width="600" controls>
-            <source src="video/tokyo.mp4" type="video/mp4">
+            <source src="video/video-londres.mp4" type="video/mp4">
         </video>
 
         <p class="texto-comum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat dui non risus placerat dictum. Vestibulum iaculis nisi ut augue pellentesque vulputate. Nulla ultrices cursus lectus, at accumsan ex eleifend ut. Nunc euismod est nec leo tempor pellentesque. Suspendisse at sem lorem. Aenean sit amet mauris ut orci porta ornare. Nullam aliquam vel urna varius viverra.
         </p>
         <p class="texto-comum">Quisque ultrices enim vitae venenatis sollicitudin. Cras bibendum elementum arcu, non placerat augue rhoncus a. Sed rutrum arcu sit amet justo convallis convallis. Nam mattis augue in lorem ullamcorper molestie. Integer vel suscipit erat. Sed a orci sed felis semper vehicula et in tortor. Mauris felis dui, egestas nec ex id, lacinia ultrices magna.
-        </p>
+        </P>
         <p class="texto-comum texto-colunas">In venenatis elit at massa euismod eleifend. Mauris vestibulum elit eros, at interdum leo suscipit quis. Nulla facilisi. Praesent magna metus, porttitor sit amet ullamcorper eget, congue quis leo. Vivamus et purus odio. Nam faucibus, odio at volutpat varius, justo nisi tempor erat, quis euismod felis metus eget est. In sodales mollis est, id dictum metus sodales nec. Duis iaculis tempus odio dapibus pharetra. Etiam interdum ultricies leo, sed efficitur lacus accumsan ut. Suspendisse tincidunt lacus eu risus sagittis, vel porta sem tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque blandit nisi vel nibh tincidunt, in fermentum velit bibendum. Donec et dapibus eros. Integer a felis tristique, ornare nisi non, tristique lectus.
         </p>
+        <img src="imagens/imgem-londres.jpg" alt="foto Londres" width="600"
 
-    </main>
-       <footer id="rodape">
 
-       </footer>
+       </main>
+        <footer id="rodape">
+            <p class="creditos">
+                Desenvolvido por Leandro Martins. &reg; Todos os direitos reservados. 2022
+            </p>
+            </footer>
 </body>
 
 </html>
